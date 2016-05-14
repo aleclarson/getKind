@@ -1,6 +1,4 @@
-var getConstructor, getProto;
-
-getConstructor = require("getConstructor");
+var getProto;
 
 getProto = require("getProto");
 
@@ -11,7 +9,7 @@ module.exports = function(type) {
   if (!(type = getProto(type))) {
     return;
   }
-  return getConstructor(type);
+  return type.constructor;
 };
 
 //# sourceMappingURL=../../map/src/getKind.map

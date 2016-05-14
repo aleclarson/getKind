@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "js/src/getKind",
   "dependencies": {
-    "getConstructor": "aleclarson/getConstructor#1.0.0",
     "getProto": "aleclarson/getProto#1.0.0"
   },
   "lotus": {

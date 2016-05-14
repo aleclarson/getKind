@@ -1,8 +1,7 @@
 
-getConstructor = require "getConstructor"
 getProto = require "getProto"
 
 module.exports = (type) ->
   return unless type = type and type.prototype
   return unless type = getProto type
-  return getConstructor type
+  return type.constructor
