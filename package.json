@@ -1,0 +1,8 @@
+{
+  "name": "getKind",
+  "version": "1.0.0",
+  "main": "js/getKind",
+  "dependencies": {
+    "getProto": "aleclarson/getProto#1.0.0"
+  }
+}
